@@ -60,7 +60,7 @@ def fourier(photo):
     
     return spectre_visuel
 
-chemin = "image\image4.jpg"
+chemin = "lena.jpg"
 originale, image_bruit = obtenir_bruit_soustraction(chemin, intensite_flou=31, gain=2.0)
 image_fourier = fourier(image_bruit)
 
